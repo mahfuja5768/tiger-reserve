@@ -46,7 +46,7 @@ a {
 /* header */
 header {
   text-transform: uppercase;
-  background-image: url("/images/pexels-tom-fisk-2739664\ 1.png"),
+  background-image: url("../images/pexels-tom-fisk-2739664\ 1.png"),
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
   background-blend-mode: overlay;
 
@@ -97,7 +97,7 @@ main section {
 /* discovering-section */
 .discovering-section {
   text-transform: uppercase;
-  background-image: url("/images/Untitled-1h\ 1.png");
+  background-image: url("../images/Untitled-1h\ 1.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
