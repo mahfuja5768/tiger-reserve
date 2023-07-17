@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* common-css */
+img {
+  width: 100%;
+}
+h1 {
+  font-size: 50px;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+p {
+  font-size: 22px;
+  margin: 10px 0;
+  line-height: 40px;
+}
+.btn {
+  padding: 13.5px 37.1px 14.4px 39px;
+  text-align: center;
+  border: none;
+  background-color: #F41A27;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+ul li {
+  list-style: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+/* header */
+header {
+  text-transform: uppercase;
+  background-image: url("/images/pexels-tom-fisk-2739664\ 1.png"),
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+  background-blend-mode: overlay;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(255, 255, 255, 0.7);
+}
+.title {
+  font-size: 20px;
+  color: #fff;
+  width: 5%;
+  margin: 0;
+}
+.title-span {
+  font-size: 25px;
+}
+.nav-container {
+  background-image: url(),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-blend-mode: overlay;
+}
+nav {
+  padding: 30px 20px;
+}
+.fa-bars {
+  display: none;
+}
+nav,
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul li {
+  margin-left: 50px;
+}
+/* banner */
+.banner {
+  padding: 300px 0;
+  text-align: center;
+}
+/* main */
+main section {
+  margin-top: 10px;
+}
+
+/* discovering-section */
+.discovering-section {
+  text-transform: uppercase;
+  background-image: url("/images/Untitled-1h\ 1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+}
+.discovering-content{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 400px;
+}
+article{
+  background-color: rgba(255, 176, 39, 1);
+  padding: 40px 40px;
+  width: 700px;
+  height: 700px;
+  margin: 100px auto;
+}
+article h1{
+ width: 70%;
+ font-size: 40px;
+}
+article p{
+  color: #000;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+article button{
+  margin: 20px 0;
+}
