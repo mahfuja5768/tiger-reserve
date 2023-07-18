@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.hide{
+  display: none;
+}
 
 body {
   font-family: "Cormorant Garamond", serif;
@@ -25,16 +28,21 @@ p {
   font-size: 22px;
   margin: 10px 0;
   line-height: 40px;
+  text-transform: none;
 }
 .btn {
-  padding: 13.5px 37.1px 14.4px 39px;
+  padding: 13.5px 25px 14.4px 25px;
   text-align: center;
   border: none;
-  background-color: #F41A27;
+  background-color: #f41a27;
   border-radius: 25px;
   color: #fff;
   font-weight: 600;
   font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #dd0a18;
 }
 ul li {
   list-style: none;
@@ -95,37 +103,79 @@ main section {
 }
 
 /* discovering-section */
-.discovering-section {
+.discovering-section , .ecosystem-services-section {
   text-transform: uppercase;
-  background-image: url("../images/Untitled-1h\ 1.png");
+  background-image: url("../images/tiger-eating.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #000;
 }
-.discovering-content{
+.discovering-content {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   margin-left: 400px;
 }
-article{
+.contents {
   background-color: rgba(255, 176, 39, 1);
-  padding: 40px 40px;
+  padding: 40px;
   width: 700px;
-  height: 700px;
-  margin: 100px auto;
+  height: auto;
+  margin: 100px 50px;
 }
-article h1{
- width: 70%;
- font-size: 40px;
+.contents h1 {
+  width: 70%;
+  font-size: 40px;
 }
-article p{
+.contents p {
   color: #000;
   font-size: 16px;
   line-height: 25px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: none;
 }
-article button{
+.contents button {
   margin: 20px 0;
+}
+
+/* ecosystem-services-section */
+.ecosystem-services-section {
+  background-image: url("../images/forest-3.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+
+}
+.ecosystem-services-section h1{
+  text-transform: uppercase;
+}
+.ecosystem-services-container{
+  background-color: rgba(0, 0, 0, 0.60);
+  width: 50%;
+  text-align: right;
+}
+.services-contents{
+  display: flex;
+  justify-content: flex-end;
+  padding: 100px 50px;
+}
+.services-texts{
+  width: 65%;
+}
+.services-texts h1{
+  color: #FFB027;
+}
+
+/* footer */
+.footer{
+  background-image: url("/images/farming.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-content{
+  
+  color: #000;
 }

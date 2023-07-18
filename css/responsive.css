@@ -7,15 +7,16 @@
     width: 90%;
   }
   h1 {
-    font-size: 30px;
+    font-size: 27px;
   }
   p {
     font-size: 17px;
     line-height: 25px;
   }
   .btn {
-    padding: 7px 20px;
+    padding: 10px 20px;
     font-size: 16px;
+    width: 100%;
   }
   /* header */
   .title {
@@ -43,35 +44,44 @@
     text-align: center;
   }
   /* discovering-section */
-  .discovering-section{
-    background-color: #ecb8b8;
-  }
-  .discovering-content {
-    /* margin-left: 100px; */
-    width: 95%;
-  }
-  article {
-    background-color: cyan;
-    padding: 30px 20px;
-    width: 700px;
-    height: auto;
-    margin-right: 80px;
-  }
-  article h1 {
-    width: 100%;
-    font-size: 23px;
-    margin: 0;
-  }
-  article p {
-    color: #000;
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: none;
-    margin: 7px 0;
-  }
-  article button {
-    margin: 5px 0;
-  }
+.discovering-content {
+  justify-content: center;
+  margin-left: 10px;
+}
+.contents {
+  background-color: rgba(255, 176, 39, 1);
+  padding: 30px 20px;
+  width: 700px;
+  height: auto;
+  margin: 100px 20px;
+}
+.contents h1 {
+  width: 100%;
+  font-size: 25px;
+  margin: 0;
+}
+.contents p {
+  font-size: 14px;
+  line-height: 22px;
+ 
+}
+.contents button {
+  margin: 5px 0;
+}
+
+/* ecosystem-services-section */
+.ecosystem-services-container{
+  width: 100%;
+  text-align: start;
+}
+.services-contents{
+  display: flex;
+  justify-content: flex-end;
+  padding: 100px 20px;
+}
+.services-texts{
+  width: 100%;
+}
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -114,4 +124,43 @@
     padding: 150px 0;
     text-align: center;
   }
+
+  /* discovering-section */
+.discovering-content {
+  justify-content: end;
+  margin-left: 40px;
+}
+.contents {
+  padding: 30px 20px;
+  width: 700px;
+  height: auto;
+  margin: 180px 20px;
+}
+.contents h1 {
+  width: 80%;
+  font-size: 35px;
+  margin: 0;
+}
+.contents p {
+  font-size: 16px;
+  line-height: 25px;
+ 
+}
+.contents button {
+  margin: 5px 0;
+}
+/* ecosystem-services-section */
+.ecosystem-services-container{
+  width: 100%;
+  text-align: start;
+}
+.services-contents{
+  display: flex;
+  justify-content: flex-end;
+  padding: 100px 20px;
+}
+.services-texts{
+  width: 100%;
+}
+
 }
