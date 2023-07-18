@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.hide{
+.hide {
   display: none;
 }
 
@@ -103,7 +103,8 @@ main section {
 }
 
 /* discovering-section */
-.discovering-section , .ecosystem-services-section {
+.discovering-section,
+.ecosystem-services-section {
   text-transform: uppercase;
   background-image: url("../images/tiger-eating.png");
   background-position: center;
@@ -146,36 +147,99 @@ main section {
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-
 }
-.ecosystem-services-section h1{
+.ecosystem-services-section h1 {
   text-transform: uppercase;
 }
-.ecosystem-services-container{
-  background-color: rgba(0, 0, 0, 0.60);
+.ecosystem-services-container {
+  background-color: rgba(0, 0, 0, 0.6);
   width: 50%;
   text-align: right;
 }
-.services-contents{
+.services-contents {
   display: flex;
   justify-content: flex-end;
   padding: 100px 50px;
 }
-.services-texts{
+.services-texts {
   width: 65%;
 }
-.services-texts h1{
-  color: #FFB027;
+.services-texts h1 {
+  color: #ffb027;
 }
 
 /* footer */
-.footer{
-  background-image: url("/images/farming.png");
+footer {
+  background-image: url("/images/pexels-sukh-winder-5611636\ 1.png");
+  background-color: rgb(14, 14, 14);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 50px;
+  color: #fff;
 }
-.footer-content{
-  
-  color: #000;
+.footer-content,
+.others {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.logo {
+  width: 50%;
+}
+.big{
+  font-size: 80px;
+}
+.logo h1 {
+  font-size: 65px;
+  padding-bottom: 10px;
+}
+.logo h2 {
+  border-top: 2px solid #7272725e;
+  font-size: 35px;
+  width: 50%;
+  color: #c0bfbf;
+  padding-top: 20px;
+
+
+}
+.logo p {
+  width: 60%;
+  text-align: start;
+  color: #656565;
+}
+.navigation{
+  margin-right: 100px;
+}
+.navigation ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navigation h2, .follow-us h2{
+  margin-bottom: 30px;
+  font-size: 40px;
+  margin-top: 25px;
+}
+.navigation ul li{
+  margin:  0;
+  margin-bottom: 30px;
+}
+.social-icons{
+  display: flex;
+}
+.social-icons img{
+  margin-right: 20px;
+  width: 50px;
+}
+
+.copyright-section {
+  margin-top: 30px;
+}
+.copyright-section p {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
 }
