@@ -7,10 +7,10 @@
     width: 90%;
   }
   h1 {
-    font-size: 27px;
+    font-size: 30px;
   }
   p {
-    font-size: 17px;
+    font-size: 15px;
     line-height: 25px;
   }
   .btn {
@@ -35,9 +35,41 @@
     font-size: 20px;
     display: block;
   }
-  ul li {
+  .full-nav {
     display: none;
   }
+ /* menu-bar */
+ .short-nav{
+   
+  position: relative;
+}
+.dropdown {
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  width: 250px;
+  
+}
+nav li:hover .dropdown {
+  display: block;
+  position: absolute;
+  padding: 20px 20px;
+  background-color: #222222de;
+  top: 0px;;
+  left: -250px;
+}
+.dropdown li {
+  margin-top: 10px;
+  color: #fff;
+}
+ul li {
+  margin-left: 0px;
+}
+.dropdown > li a {
+  color: #fff;
+  font-size: 14px;
+}
+
   /* banner */
   .banner {
     padding: 150px 0;
@@ -159,7 +191,7 @@
   }
   .copyright-section p {
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     margin: 0;
     padding: 0;
   }
@@ -177,33 +209,33 @@
 
   /* wild-life-section */
 
-.wild-life-section {
-  background-image: none;
-  margin: 70px 0;
-}
-.wild-life-content {
-  flex-direction: column;
-  margin-top: 10px;
-}
-.wild-life-content div {
-  width: 100%;
-}
-.side-pic img {
-  width: 100%;
-  margin-bottom: 30px;
-}
-/* catchment-protect-section */
-.catchment-protect-section {
-  background: #ffb027 url("../images/tiger-1.png") no-repeat;
-  /* direction: rtl; */
-  background-size: 100% ;
-  width: 100%;
-}
-.catchment-protect-text {
-  padding: 60px 20px;
-  width: 100%;
-  text-align: left;
-}
+  .wild-life-section {
+    background-image: none;
+    margin: 70px 0;
+  }
+  .wild-life-content {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .wild-life-content div {
+    width: 100%;
+  }
+  .side-pic img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  /* catchment-protect-section */
+  .catchment-protect-section {
+    background: #ffb027 url("../images/tiger-1.png") no-repeat;
+    /* direction: rtl; */
+    background-size: 100%;
+    width: 100%;
+  }
+  .catchment-protect-text {
+    padding: 60px 20px;
+    width: 100%;
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -238,9 +270,39 @@
     font-size: 25px;
     display: block;
   }
-  ul li {
+  .full-nav {
     display: none;
   }
+  /* menu-bar */
+ .short-nav{
+   
+  position: relative;
+}
+.dropdown {
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  width: 250px;
+}
+nav li:hover .dropdown {
+  display: block;
+  position: absolute;
+  padding: 30px 20px;
+  background-color: #222222de;
+  top: 0px;;
+  left: -200px;
+}
+.dropdown li {
+  margin-top: 20px;
+  color: #fff;
+}
+ul li {
+  margin-left: 0px;
+}
+.dropdown > li a {
+  color: #fff;
+  font-size: 16px;
+}
   /* banner */
   .banner {
     padding: 150px 0;
@@ -300,7 +362,7 @@
   .big {
     font-size: 50px;
   }
-  .logo-1-big{
+  .logo-1-big {
     margin-bottom: 30px;
     width: 250px;
   }
@@ -367,25 +429,22 @@
   .about-page-banner h1 {
     width: 100%;
   }
-/* wild-life-section */
+  /* wild-life-section */
 
-.wild-life-section {
-  background-image: none;
-  margin: 70px 0;
+  .wild-life-section {
+    background-image: none;
+    margin: 70px 0;
+  }
+  .wild-life-content {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .wild-life-content div {
+    width: 100%;
+  }
+  .side-pic img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  /* catchment-protect-section */
 }
-.wild-life-content {
-  flex-direction: column;
-  margin-top: 10px;
-}
-.wild-life-content div {
-  width: 100%;
-}
-.side-pic img {
-  width: 100%;
-  margin-bottom: 30px;
-}
-/* catchment-protect-section */
-
-}
-
-

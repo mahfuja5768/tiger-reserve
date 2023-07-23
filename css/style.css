@@ -41,7 +41,7 @@ p {
 .btn:hover {
   background-color: #dd0a18;
 }
-ul li {
+li {
   list-style: none;
 }
 a {
@@ -71,18 +71,25 @@ a {
 nav {
   padding: 25px 20px;
 }
-.fa-bars {
-  display: none;
-}
+
 nav,
-nav ul {
+nav > ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-ul li {
+ul > li {
   margin-left: 50px;
 }
+.fa-bars {
+  display: none;
+  cursor: pointer;
+}
+.dropdown{
+  display: none;
+}
+ 
+
 /* banner */
 .banner {
   padding: 320px 0;
